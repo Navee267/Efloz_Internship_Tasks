@@ -1,0 +1,80 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    background: rgb(27, 173, 168);
+}
+
+.box{
+    width: 50%;
+    height: fit-content;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: black;
+    
+}
+.box .headerbox{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: 400;
+}
+
+.box button{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: purple;
+    color: white;
+    padding: 7px ;
+    border-radius: 3px ;
+    border: none;
+    box-shadow: 1.5px 2px 2px black,
+                -1.5px -1.5px 2px rgb(58, 56, 56);
+}
+.box button:hover{
+    color: black;
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+.box input{
+    padding: 7px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1.4px 1.4px 1px white;
+}
+.box #output{
+    padding: 10px;
+    border-radius: 8px;
+    width: 50%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: white;
+    color: black;
+}
