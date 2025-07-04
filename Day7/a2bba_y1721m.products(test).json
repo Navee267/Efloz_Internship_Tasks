@@ -1,0 +1,3775 @@
+[{
+  "_id": {
+    "$oid": "675ffc571c02df17f8c2bdd3"
+  },
+  "pName": "Cream Bun",
+  "categ": "Menu",
+  "code": "1111",
+  "subCateg": "BAKERY",
+  "group": "",
+  "desc": "",
+  "imgUrl": "",
+  "unit": "KGS",
+  "tax": {
+    "taxCateg": "5%",
+    "rate": 5,
+    "sgst": 2.5,
+    "cgst": 2.5,
+    "igst": 5
+  },
+  "kotSection": {
+    "_id": {
+      "$oid": "677fb70c6cfcf95de36188ea"
+    },
+    "section": "Juice"
+  },
+  "hsnCode": "",
+  "minStock": 10,
+  "hasExp": true,
+  "isVeg": true,
+  "isDailyPick": false,
+  "hasStock": true,
+  "expDays": 1,
+  "usedFor": {
+    "purchase": true,
+    "pos": true,
+    "production": true,
+    "kot": true,
+    "packing": true
+  },
+  "sales": [
+    {
+      "salesMode": "POS",
+      "enable": true
+    },
+    {
+      "salesMode": "Dining",
+      "enable": true
+    },
+    {
+      "salesMode": "Token",
+      "enable": true
+    },
+    {
+      "salesMode": "Zomato",
+      "enable": true
+    },
+    {
+      "salesMode": "Swiggy",
+      "enable": true
+    },
+    {
+      "salesMode": "Take Away",
+      "enable": true
+    }
+  ],
+  "prodTypes": [
+    {
+      "prodType": "Snacks",
+      "enable": true
+    },
+    {
+      "prodType": "Bakery",
+      "enable": true
+    },
+    {
+      "prodType": "Icing",
+      "enable": true
+    }
+  ],
+  "pRate": 65,
+  "sRate": 85,
+  "mrp": 85,
+  "cost": 48,
+  "purchAc": {
+    "$oid": "675ff9f51c02df17f8c2bd45"
+  },
+  "purchAcName": "Purchase",
+  "salesAc": {
+    "$oid": "675ff9f51c02df17f8c2bd44"
+  },
+  "salesAcName": "Sales",
+  "salesComm": 2,
+  "totStock": {
+    "$numberDecimal": "-35.450000000000000"
+  },
+  "cAt": {
+    "$date": "2024-12-16T10:09:27.831Z"
+  },
+  "cBy": "A2b Bakery",
+  "c_Id": {
+    "$oid": "675ff9f51c02df17f8c2bd26"
+  },
+  "act": true,
+  "vendor": [
+    {
+      "_id": {
+        "$oid": "6760008a1c02df17f8c2be10"
+      },
+      "vName": "RENU VENDORS",
+      "pRate": 65
+    },
+    {
+      "_id": {
+        "$oid": "676000991c02df17f8c2be11"
+      },
+      "vName": "SUJA VENDORS",
+      "pRate": 65
+    }
+  ],
+  "stock": [
+    {
+      "o_id": {
+        "$oid": "675ffb801c02df17f8c2bdc1"
+      },
+      "sp_id": {
+        "$oid": "675ffb801c02df17f8c2bdc2"
+      },
+      "spCode": "POS-A",
+      "spName": "POS-A",
+      "stock": {
+        "$numberDecimal": "0E-15"
+      },
+      "sRate": 85,
+      "expDate": {
+        "$date": "2024-12-17T18:29:59.999Z"
+      }
+    },
+    {
+      "o_id": {
+        "$oid": "675ffb801c02df17f8c2bdc1"
+      },
+      "sp_id": {
+        "$oid": "675ffb801c02df17f8c2bdc2"
+      },
+      "spCode": "POS-A",
+      "spName": "POS-A",
+      "stock": {
+        "$numberDecimal": "-35.450000000000000"
+      },
+      "sRate": 85
+    }
+  ],
+  "isFrequentSales": false,
+  "uAt": {
+    "$date": "2025-01-20T01:54:41.979Z"
+  },
+  "uBy": "Esakkiraj",
+  "u_Id": {
+    "$oid": "675ff9f51c02df17f8c2bd26"
+  }
+},
+{
+  "_id": {
+    "$oid": "675ffc801c02df17f8c2bdd5"
+  },
+  "pName": "BANANA BUN",
+  "categ": "Menu",
+  "code": "22222",
+  "subCateg": "BAKERY",
+  "group": "",
+  "desc": "",
+  "imgUrl": "",
+  "unit": "KGS",
+  "tax": {
+    "taxCateg": "5%",
+    "rate": 5,
+    "sgst": 2.5,
+    "cgst": 2.5,
+    "igst": 5
+  },
+  "kotSection": {
+    "_id": {
+      "$oid": "6782373b0a552edef0016f4b"
+    },
+    "section": "CHOCO"
+  },
+  "hsnCode": "",
+  "minStock": null,
+  "hasExp": true,
+  "isVeg": true,
+  "isDailyPick": false,
+  "hasStock": true,
+  "expDays": 2,
+  "usedFor": {
+    "purchase": true,
+    "pos": true,
+    "production": true,
+    "kot": true,
+    "packing": true
+  },
+  "sales": [
+    {
+      "salesMode": "POS",
+      "enable": true
+    },
+    {
+      "salesMode": "Dining",
+      "enable": true
+    },
+    {
+      "salesMode": "Token",
+      "enable": true
+    },
+    {
+      "salesMode": "Zomato",
+      "enable": true
+    },
+    {
+      "salesMode": "Swiggy",
+      "enable": true
+    },
+    {
+      "salesMode": "Take Away",
+      "enable": true
+    }
+  ],
+  "prodTypes": [
+    {
+      "prodType": "Snacks",
+      "enable": true
+    },
+    {
+      "prodType": "Bakery",
+      "enable": true
+    },
+    {
+      "prodType": "Icing",
+      "enable": true
+    }
+  ],
+  "pRate": 118,
+  "sRate": 130,
+  "mrp": 130,
+  "cost": 99.91,
+  "purchAc": {
+    "$oid": "675ff9f51c02df17f8c2bd45"
+  },
+  "purchAcName": "Purchase",
+  "salesAc": {
+    "$oid": "675ff9f51c02df17f8c2bd44"
+  },
+  "salesAcName": "Sales",
+  "salesComm": 2,
+  "totStock": {
+    "$numberDecimal": "193.74500000000000"
+  },
+  "cAt": {
+    "$date": "2024-12-16T10:10:08.232Z"
+  },
+  "cBy": "A2b Bakery",
+  "c_Id": {
+    "$oid": "675ff9f51c02df17f8c2bd26"
+  },
+  "act": true,
+  "vendor": [
+    {
+      "_id": {
+        "$oid": "6760008a1c02df17f8c2be10"
+      },
+      "vName": "RENU VENDORS",
+      "pRate": 118
+    },
+    {
+      "_id": {
+        "$oid": "676000991c02df17f8c2be11"
+      },
+      "vName": "SUJA VENDORS",
+      "pRate": 122
+    }
+  ],
+  "stock": [
+    {
+      "o_id": {
+        "$oid": "675ffb801c02df17f8c2bdc1"
+      },
+      "sp_id": {
+        "$oid": "675ffb801c02df17f8c2bdc2"
+      },
+      "spCode": "POS-A",
+      "spName": "POS-A",
+      "stock": {
+        "$numberDecimal": "0"
+      },
+      "sRate": 75,
+      "expDate": {
+        "$date": "2024-12-18T18:29:59.999Z"
+      }
+    },
+    {
+      "o_id": {
+        "$oid": "675ffb801c02df17f8c2bdc1"
+      },
+      "sp_id": {
+        "$oid": "675ffb801c02df17f8c2bdc2"
+      },
+      "spCode": "POS-A",
+      "spName": "POS-A",
+      "stock": {
+        "$numberDecimal": "0"
+      },
+      "sRate": 75,
+      "expDate": {
+        "$date": "2025-01-04T18:29:59.999Z"
+      }
+    },
+    {
+      "o_id": {
+        "$oid": "675ffb801c02df17f8c2bdc1"
+      },
+      "sp_id": {
+        "$oid": "675ffb801c02df17f8c2bdc2"
+      },
+      "spCode": "POS-A",
+      "spName": "POS-A",
+      "stock": {
+        "$numberDecimal": "-37.25500000000000"
+      },
+      "sRate": 75
+    },
+    {
+      "o_id": {
+        "$oid": "675ffb801c02df17f8c2bdc1"
+      },
+      "sp_id": {
+        "$oid": "675ffb801c02df17f8c2bdc2"
+      },
+      "spCode": "POS-A",
+      "spName": "POS-A",
+      "stock": {
+        "$numberDecimal": "4"
+      },
+      "sRate": 75,
+      "expDate": {
+        "$date": "2025-01-14T18:29:59.999Z"
+      }
+    },
+    {
+      "o_id": {
+        "$oid": "675ffb801c02df17f8c2bdc1"
+      },
+      "sp_id": {
+        "$oid": "675ffb801c02df17f8c2bdc2"
+      },
+      "spCode": "POS-A",
+      "spName": "POS-A",
+      "stock": {
+        "$numberDecimal": "34"
+      },
+      "sRate": 75,
+      "expDate": {
+        "$date": "2025-01-15T18:29:59.999Z"
+      }
+    },
+    {
+      "o_id": {
+        "$oid": "675ffb801c02df17f8c2bdc1"
+      },
+      "sp_id": {
+        "$oid": "675ffb801c02df17f8c2bdc2"
+      },
+      "spCode": "POS-A",
+      "spName": "POS-A",
+      "stock": {
+        "$numberDecimal": "48"
+      },
+      "sRate": 75,
+      "expDate": {
+        "$date": "2025-01-16T18:29:59.999Z"
+      }
+    },
+    {
+      "o_id": {
+        "$oid": "675ffb801c02df17f8c2bdc1"
+      },
+      "sp_id": {
+        "$oid": "675ffb801c02df17f8c2bdc2"
+      },
+      "spCode": "POS-A",
+      "spName": "POS-A",
+      "stock": {
+        "$numberDecimal": "0"
+      },
+      "sRate": 85,
+      "expDate": {
+        "$date": "2025-01-16T18:29:59.999Z"
+      }
+    },
+    {
+      "o_id": {
+        "$oid": "675ffb801c02df17f8c2bdc1"
+      },
+      "sp_id": {
+        "$oid": "675ffb801c02df17f8c2bdc2"
+      },
+      "spCode": "POS-A",
+      "spName": "POS-A",
+      "stock": {
+        "$numberDecimal": "0"
+      },
+      "sRate": 85,
+      "expDate": {
+        "$date": "2025-01-17T18:29:59.999Z"
+      }
+    },
+    {
+      "o_id": {
+        "$oid": "675ffb801c02df17f8c2bdc1"
+      },
+      "sp_id": {
+        "$oid": "675ffb801c02df17f8c2bdc2"
+      },
+      "spCode": "POS-A",
+      "spName": "POS-A",
+      "stock": {
+        "$numberDecimal": "0"
+      },
+      "sRate": 95,
+      "expDate": {
+        "$date": "2025-01-18T18:29:59.999Z"
+      }
+    },
+    {
+      "o_id": {
+        "$oid": "675ffb801c02df17f8c2bdc1"
+      },
+      "sp_id": {
+        "$oid": "675ffb801c02df17f8c2bdc2"
+      },
+      "spCode": "POS-A",
+      "spName": "POS-A",
+      "stock": {
+        "$numberDecimal": "5"
+      },
+      "sRate": 95,
+      "expDate": {
+        "$date": "2025-01-15T18:29:59.999Z"
+      }
+    },
+    {
+      "o_id": {
+        "$oid": "675ffb801c02df17f8c2bdc1"
+      },
+      "sp_id": {
+        "$oid": "675ffb801c02df17f8c2bdc2"
+      },
+      "spCode": "POS-A",
+      "spName": "POS-A",
+      "stock": {
+        "$numberDecimal": "5"
+      },
+      "sRate": 95,
+      "expDate": {
+        "$date": "2025-01-16T18:29:59.999Z"
+      }
+    },
+    {
+      "o_id": {
+        "$oid": "675ffb801c02df17f8c2bdc1"
+      },
+      "sp_id": {
+        "$oid": "675ffb801c02df17f8c2bdc2"
+      },
+      "spCode": "POS-A",
+      "spName": "POS-A",
+      "stock": {
+        "$numberDecimal": "25"
+      },
+      "sRate": 95,
+      "expDate": {
+        "$date": "2025-01-17T18:29:59.999Z"
+      }
+    },
+    {
+      "o_id": {
+        "$oid": "675ffb801c02df17f8c2bdc1"
+      },
+      "sp_id": {
+        "$oid": "675ffb801c02df17f8c2bdc2"
+      },
+      "spCode": "POS-A",
+      "spName": "POS-A",
+      "stock": {
+        "$numberDecimal": "5"
+      },
+      "sRate": 100,
+      "expDate": {
+        "$date": "2025-01-18T18:29:59.999Z"
+      }
+    },
+    {
+      "o_id": {
+        "$oid": "675ffb801c02df17f8c2bdc1"
+      },
+      "sp_id": {
+        "$oid": "675ffb801c02df17f8c2bdc2"
+      },
+      "spCode": "POS-A",
+      "spName": "POS-A",
+      "stock": {
+        "$numberDecimal": "5"
+      },
+      "sRate": 100,
+      "expDate": {
+        "$date": "2025-01-17T18:29:59.999Z"
+      }
+    },
+    {
+      "o_id": {
+        "$oid": "675ffb801c02df17f8c2bdc1"
+      },
+      "sp_id": {
+        "$oid": "675ffb801c02df17f8c2bdc2"
+      },
+      "spCode": "POS-A",
+      "spName": "POS-A",
+      "stock": {
+        "$numberDecimal": "5"
+      },
+      "sRate": 100,
+      "expDate": {
+        "$date": "2025-01-16T18:29:59.999Z"
+      }
+    },
+    {
+      "o_id": {
+        "$oid": "675ffb801c02df17f8c2bdc1"
+      },
+      "sp_id": {
+        "$oid": "675ffb801c02df17f8c2bdc2"
+      },
+      "spCode": "POS-A",
+      "spName": "POS-A",
+      "stock": {
+        "$numberDecimal": "5"
+      },
+      "sRate": 100,
+      "expDate": {
+        "$date": "2025-01-19T18:29:59.999Z"
+      }
+    },
+    {
+      "o_id": {
+        "$oid": "675ffb801c02df17f8c2bdc1"
+      },
+      "sp_id": {
+        "$oid": "675ffb801c02df17f8c2bdc2"
+      },
+      "spCode": "POS-A",
+      "spName": "POS-A",
+      "stock": {
+        "$numberDecimal": "20"
+      },
+      "sRate": 110,
+      "expDate": {
+        "$date": "2025-01-19T18:29:59.999Z"
+      }
+    },
+    {
+      "o_id": {
+        "$oid": "675ffb801c02df17f8c2bdc1"
+      },
+      "sp_id": {
+        "$oid": "675ffb801c02df17f8c2bdc2"
+      },
+      "spCode": "POS-A",
+      "spName": "POS-A",
+      "stock": {
+        "$numberDecimal": "5"
+      },
+      "sRate": 110,
+      "expDate": {
+        "$date": "2025-01-18T18:29:59.999Z"
+      }
+    },
+    {
+      "o_id": {
+        "$oid": "675ffb801c02df17f8c2bdc1"
+      },
+      "sp_id": {
+        "$oid": "675ffb801c02df17f8c2bdc2"
+      },
+      "spCode": "POS-A",
+      "spName": "POS-A",
+      "stock": {
+        "$numberDecimal": "10"
+      },
+      "sRate": 130,
+      "expDate": {
+        "$date": "2025-01-19T18:29:59.999Z"
+      }
+    },
+    {
+      "o_id": {
+        "$oid": "675ffb801c02df17f8c2bdc1"
+      },
+      "sp_id": {
+        "$oid": "675ffb801c02df17f8c2bdc2"
+      },
+      "spCode": "POS-A",
+      "spName": "POS-A",
+      "stock": {
+        "$numberDecimal": "25"
+      },
+      "sRate": 130,
+      "expDate": {
+        "$date": "2025-01-18T18:29:59.999Z"
+      }
+    },
+    {
+      "o_id": {
+        "$oid": "675ffb801c02df17f8c2bdc1"
+      },
+      "sp_id": {
+        "$oid": "675ffb801c02df17f8c2bdc2"
+      },
+      "spCode": "POS-A",
+      "spName": "POS-A",
+      "stock": {
+        "$numberDecimal": "20"
+      },
+      "sRate": 130,
+      "expDate": {
+        "$date": "2025-01-20T18:29:59.999Z"
+      }
+    },
+    {
+      "o_id": {
+        "$oid": "675ffb801c02df17f8c2bdc1"
+      },
+      "sp_id": {
+        "$oid": "675ffb801c02df17f8c2bdc2"
+      },
+      "spCode": "POS-A",
+      "spName": "POS-A",
+      "stock": {
+        "$numberDecimal": "10"
+      },
+      "sRate": 130,
+      "expDate": {
+        "$date": "2025-01-21T18:29:59.999Z"
+      }
+    }
+  ],
+  "isFrequentSales": false,
+  "uAt": {
+    "$date": "2025-01-20T01:54:57.498Z"
+  },
+  "uBy": "Esakkiraj",
+  "u_Id": {
+    "$oid": "675ff9f51c02df17f8c2bd26"
+  }
+},
+{
+  "_id": {
+    "$oid": "675ffc9e1c02df17f8c2bdd7"
+  },
+  "pName": "Carrot Bun",
+  "categ": "Menu",
+  "code": "333333",
+  "subCateg": "BAKERY",
+  "group": "",
+  "desc": "",
+  "imgUrl": "",
+  "unit": "KGS",
+  "tax": {
+    "taxCateg": "5%",
+    "rate": 5,
+    "sgst": 2.5,
+    "cgst": 2.5,
+    "igst": 5
+  },
+  "kotSection": {
+    "_id": {
+      "$oid": "678241d90a552edef0016f59"
+    },
+    "section": "HOT"
+  },
+  "hsnCode": "",
+  "minStock": 250,
+  "hasExp": true,
+  "isVeg": true,
+  "isDailyPick": false,
+  "hasStock": true,
+  "expDays": 1,
+  "usedFor": {
+    "purchase": true,
+    "pos": true,
+    "production": true,
+    "kot": true,
+    "packing": true
+  },
+  "sales": [
+    {
+      "salesMode": "POS",
+      "enable": true
+    },
+    {
+      "salesMode": "Dining",
+      "enable": true
+    },
+    {
+      "salesMode": "Token",
+      "enable": true
+    },
+    {
+      "salesMode": "Zomato",
+      "enable": true
+    },
+    {
+      "salesMode": "Swiggy",
+      "enable": true
+    },
+    {
+      "salesMode": "Take Away",
+      "enable": true
+    }
+  ],
+  "prodTypes": [
+    {
+      "prodType": "Snacks",
+      "enable": true
+    },
+    {
+      "prodType": "Bakery",
+      "enable": true
+    },
+    {
+      "prodType": "Icing",
+      "enable": true
+    }
+  ],
+  "pRate": 55,
+  "sRate": 85,
+  "mrp": 85,
+  "cost": 55,
+  "purchAc": {
+    "$oid": "675ff9f51c02df17f8c2bd45"
+  },
+  "purchAcName": "Purchase",
+  "salesAc": {
+    "$oid": "675ff9f51c02df17f8c2bd44"
+  },
+  "salesAcName": "Sales",
+  "salesComm": 2,
+  "totStock": {
+    "$numberDecimal": "-14"
+  },
+  "cAt": {
+    "$date": "2024-12-16T10:10:38.138Z"
+  },
+  "cBy": "A2b Bakery",
+  "c_Id": {
+    "$oid": "675ff9f51c02df17f8c2bd26"
+  },
+  "act": true,
+  "vendor": [
+    {
+      "_id": {
+        "$oid": "676000991c02df17f8c2be11"
+      },
+      "vName": "SUJA VENDORS",
+      "pRate": 55
+    }
+  ],
+  "stock": [
+    {
+      "o_id": {
+        "$oid": "675ffb801c02df17f8c2bdc1"
+      },
+      "sp_id": {
+        "$oid": "675ffb801c02df17f8c2bdc2"
+      },
+      "spCode": "POS-A",
+      "spName": "POS-A",
+      "stock": {
+        "$numberDecimal": "0"
+      },
+      "sRate": 85,
+      "expDate": {
+        "$date": "2024-12-17T18:29:59.999Z"
+      }
+    },
+    {
+      "o_id": {
+        "$oid": "675ffb801c02df17f8c2bdc1"
+      },
+      "sp_id": {
+        "$oid": "675ffb801c02df17f8c2bdc2"
+      },
+      "spCode": "POS-A",
+      "spName": "POS-A",
+      "stock": {
+        "$numberDecimal": "-14"
+      },
+      "sRate": 85
+    }
+  ],
+  "uAt": {
+    "$date": "2025-01-20T01:55:05.154Z"
+  },
+  "uBy": "Esakkiraj",
+  "u_Id": {
+    "$oid": "675ff9f51c02df17f8c2bd26"
+  },
+  "isFrequentSales": false
+},
+{
+  "_id": {
+    "$oid": "675ffcbd1c02df17f8c2bdd9"
+  },
+  "pName": "BUN BUTTER JAM",
+  "categ": "Menu",
+  "code": "4",
+  "subCateg": "BAKERY",
+  "group": "",
+  "desc": null,
+  "imgUrl": "",
+  "unit": "KGS",
+  "tax": {
+    "taxCateg": "5%",
+    "rate": 5,
+    "sgst": 2.5,
+    "cgst": 2.5,
+    "igst": 5
+  },
+  "kotSection": null,
+  "hsnCode": "",
+  "minStock": 250,
+  "hasExp": true,
+  "isVeg": true,
+  "isDailyPick": false,
+  "hasStock": true,
+  "expDays": 1,
+  "usedFor": {
+    "purchase": true,
+    "pos": true,
+    "production": true,
+    "kot": true,
+    "packing": true
+  },
+  "sales": [
+    {
+      "salesMode": "Token",
+      "enable": true
+    },
+    {
+      "salesMode": "Swiggy",
+      "enable": true
+    },
+    {
+      "salesMode": "Take Away",
+      "enable": true
+    },
+    {
+      "salesMode": "Dining",
+      "enable": true
+    },
+    {
+      "salesMode": "POS",
+      "enable": true
+    },
+    {
+      "salesMode": "Zomato",
+      "enable": true
+    }
+  ],
+  "prodTypes": [
+    {
+      "prodType": "Icing",
+      "enable": true
+    },
+    {
+      "prodType": "Snacks",
+      "enable": true
+    },
+    {
+      "prodType": "Bakery",
+      "enable": true
+    }
+  ],
+  "pRate": 0,
+  "sRate": 0,
+  "mrp": 0,
+  "cost": 0,
+  "purchAc": {
+    "$oid": "675ff9f51c02df17f8c2bd45"
+  },
+  "purchAcName": "Purchase",
+  "salesAc": {
+    "$oid": "675ff9f51c02df17f8c2bd44"
+  },
+  "salesAcName": "Sales",
+  "salesComm": 5,
+  "totStock": {
+    "$numberDecimal": "0"
+  },
+  "cAt": {
+    "$date": "2024-12-16T10:11:09.229Z"
+  },
+  "cBy": "A2b Bakery",
+  "c_Id": {
+    "$oid": "675ff9f51c02df17f8c2bd26"
+  },
+  "act": false
+},
+{
+  "_id": {
+    "$oid": "6760004e1c02df17f8c2be0e"
+  },
+  "pName": "BLACK FOREST CAKE",
+  "categ": "Menu",
+  "cCateg": "BLACK FOREST",
+  "cCateg_id": {
+    "$oid": "676000291c02df17f8c2be0d"
+  },
+  "code": "5",
+  "subCateg": "CELEBRATION CAKES",
+  "group": "",
+  "desc": "",
+  "imgUrl": "",
+  "unit": "KGS",
+  "tax": {
+    "taxCateg": "5%",
+    "rate": 5,
+    "sgst": 2.5,
+    "cgst": 2.5,
+    "igst": 5
+  },
+  "kotSection": null,
+  "hsnCode": "",
+  "minStock": null,
+  "hasExp": false,
+  "hasStock": false,
+  "expDays": null,
+  "usedFor": {
+    "purchase": false,
+    "pos": true,
+    "production": true,
+    "kot": false,
+    "packing": false
+  },
+  "sales": [
+    {
+      "salesMode": "Token",
+      "enable": false
+    },
+    {
+      "salesMode": "POS",
+      "enable": false
+    },
+    {
+      "salesMode": "Dining",
+      "enable": false
+    },
+    {
+      "salesMode": "Take Away",
+      "enable": true
+    },
+    {
+      "salesMode": "Zomato",
+      "enable": false
+    },
+    {
+      "salesMode": "Swiggy",
+      "enable": false
+    }
+  ],
+  "prodTypes": [
+    {
+      "prodType": "Bakery",
+      "enable": true
+    },
+    {
+      "prodType": "Icing",
+      "enable": true
+    },
+    {
+      "prodType": "Snacks",
+      "enable": true
+    }
+  ],
+  "otherCakeCateg": [],
+  "sRate": null,
+  "mrp": null,
+  "cost": null,
+  "pRate": null,
+  "salesAc": {
+    "$oid": "675ff9f51c02df17f8c2bd44"
+  },
+  "salesAcName": "Sales",
+  "salesComm": 2,
+  "totStock": {
+    "$numberDecimal": "0"
+  },
+  "cAt": {
+    "$date": "2024-12-16T10:26:22.163Z"
+  },
+  "cBy": "A2b Bakery",
+  "c_Id": {
+    "$oid": "675ff9f51c02df17f8c2bd26"
+  },
+  "act": true,
+  "type": "Cake",
+  "features": [
+    {
+      "_id": {
+        "$oid": "675ff9f51c02df17f8c2bdb6"
+      },
+      "status": "Optional"
+    },
+    {
+      "_id": {
+        "$oid": "675ff9f51c02df17f8c2bdb7"
+      },
+      "status": "Optional"
+    },
+    {
+      "_id": {
+        "$oid": "675ff9f51c02df17f8c2bdb8"
+      },
+      "status": "Optional"
+    }
+  ],
+  "shapes": [
+    {
+      "shape": "Round",
+      "status": "Optional"
+    },
+    {
+      "shape": "Heart",
+      "status": "Optional"
+    },
+    {
+      "shape": "Square",
+      "status": "Optional"
+    }
+  ],
+  "flavours": [
+    {
+      "_id": {
+        "$oid": "675fffb71c02df17f8c2be0c"
+      },
+      "status": true
+    }
+  ],
+  "defaultFlavour_id": {
+    "$oid": "675fffb71c02df17f8c2be0c"
+  },
+  "minKG": 1,
+  "maxKG": null,
+  "baseRate": 450,
+  "chargesPerKG": 50,
+  "prepTimeIn": "Hours",
+  "prepTime": 0,
+  "keywords": [],
+  "weightInImage": 0,
+  "canChangeImg": true,
+  "allowPhotoOnCake": true
+},
+{
+  "_id": {
+    "$oid": "6760006b1c02df17f8c2be0f"
+  },
+  "pName": "MANGO CAKE",
+  "categ": "Menu",
+  "cCateg": "BLACK FOREST",
+  "cCateg_id": {
+    "$oid": "676000291c02df17f8c2be0d"
+  },
+  "code": "6",
+  "subCateg": "CELEBRATION CAKES",
+  "group": "",
+  "desc": "",
+  "imgUrl": "",
+  "unit": "KGS",
+  "tax": {
+    "taxCateg": "5%",
+    "rate": 5,
+    "sgst": 2.5,
+    "cgst": 2.5,
+    "igst": 5
+  },
+  "kotSection": null,
+  "hsnCode": "",
+  "minStock": null,
+  "hasExp": false,
+  "hasStock": false,
+  "expDays": null,
+  "usedFor": {
+    "purchase": false,
+    "pos": true,
+    "production": true,
+    "kot": false,
+    "packing": false
+  },
+  "sales": [
+    {
+      "salesMode": "Token",
+      "enable": false
+    },
+    {
+      "salesMode": "POS",
+      "enable": false
+    },
+    {
+      "salesMode": "Dining",
+      "enable": false
+    },
+    {
+      "salesMode": "Take Away",
+      "enable": true
+    },
+    {
+      "salesMode": "Zomato",
+      "enable": false
+    },
+    {
+      "salesMode": "Swiggy",
+      "enable": false
+    }
+  ],
+  "prodTypes": [
+    {
+      "prodType": "Bakery",
+      "enable": true
+    },
+    {
+      "prodType": "Icing",
+      "enable": true
+    },
+    {
+      "prodType": "Snacks",
+      "enable": true
+    }
+  ],
+  "otherCakeCateg": [],
+  "sRate": null,
+  "mrp": null,
+  "cost": null,
+  "pRate": null,
+  "salesAc": {
+    "$oid": "675ff9f51c02df17f8c2bd44"
+  },
+  "salesAcName": "Sales",
+  "salesComm": 2,
+  "totStock": {
+    "$numberDecimal": "0"
+  },
+  "cAt": {
+    "$date": "2024-12-16T10:26:51.682Z"
+  },
+  "cBy": "A2b Bakery",
+  "c_Id": {
+    "$oid": "675ff9f51c02df17f8c2bd26"
+  },
+  "act": true,
+  "type": "Cake",
+  "features": [
+    {
+      "_id": {
+        "$oid": "675ff9f51c02df17f8c2bdb6"
+      },
+      "status": "Optional"
+    },
+    {
+      "_id": {
+        "$oid": "675ff9f51c02df17f8c2bdb7"
+      },
+      "status": "Optional"
+    },
+    {
+      "_id": {
+        "$oid": "675ff9f51c02df17f8c2bdb8"
+      },
+      "status": "Optional"
+    }
+  ],
+  "shapes": [
+    {
+      "shape": "Round",
+      "status": "Optional"
+    },
+    {
+      "shape": "Heart",
+      "status": "Optional"
+    },
+    {
+      "shape": "Square",
+      "status": "Optional"
+    }
+  ],
+  "flavours": [
+    {
+      "_id": {
+        "$oid": "675fffb71c02df17f8c2be0c"
+      },
+      "status": true
+    }
+  ],
+  "defaultFlavour_id": {
+    "$oid": "675fffb71c02df17f8c2be0c"
+  },
+  "minKG": 0.1,
+  "maxKG": null,
+  "baseRate": 450,
+  "chargesPerKG": 50,
+  "prepTimeIn": "Hours",
+  "prepTime": 0,
+  "keywords": [],
+  "weightInImage": 0,
+  "canChangeImg": true,
+  "allowPhotoOnCake": true,
+  "uAt": {
+    "$date": "2025-01-18T12:14:40.805Z"
+  },
+  "uBy": "Esakkiraj",
+  "u_Id": {
+    "$oid": "675ff9f51c02df17f8c2bd26"
+  }
+},
+{
+  "_id": {
+    "$oid": "6773db8bf9e8bad8ff7ddc28"
+  },
+  "pName": "FULL MEAL",
+  "categ": "Menu",
+  "code": "7",
+  "subCateg": "",
+  "group": "",
+  "desc": null,
+  "imgUrl": "",
+  "unit": "KGS",
+  "tax": {
+    "taxCateg": "5%",
+    "rate": 5,
+    "sgst": 2.5,
+    "cgst": 2.5,
+    "igst": 5
+  },
+  "kotSection": null,
+  "hsnCode": "",
+  "minStock": 0,
+  "hasExp": true,
+  "isVeg": true,
+  "isDailyPick": false,
+  "hasStock": true,
+  "expDays": 1,
+  "usedFor": {
+    "purchase": false,
+    "pos": true,
+    "production": true,
+    "kot": true,
+    "packing": true
+  },
+  "sales": [
+    {
+      "salesMode": "Token",
+      "enable": true
+    },
+    {
+      "salesMode": "Take Away",
+      "enable": true
+    },
+    {
+      "salesMode": "Zomato",
+      "enable": true
+    },
+    {
+      "salesMode": "POS",
+      "enable": true
+    },
+    {
+      "salesMode": "Dining",
+      "enable": true
+    },
+    {
+      "salesMode": "Swiggy",
+      "enable": true
+    }
+  ],
+  "prodTypes": [
+    {
+      "prodType": "Bakery",
+      "enable": true
+    },
+    {
+      "prodType": "Icing",
+      "enable": true
+    },
+    {
+      "prodType": "Snacks",
+      "enable": true
+    }
+  ],
+  "pRate": 0,
+  "sRate": 0,
+  "mrp": 0,
+  "cost": 0,
+  "purchAc": {
+    "$oid": "675ff9f51c02df17f8c2bd45"
+  },
+  "purchAcName": "Purchase",
+  "salesAc": {
+    "$oid": "675ff9f51c02df17f8c2bd44"
+  },
+  "salesAcName": "Sales",
+  "salesComm": 2,
+  "totStock": {
+    "$numberDecimal": "-45.2500000000000"
+  },
+  "cAt": {
+    "$date": "2024-12-31T11:54:51.498Z"
+  },
+  "cBy": "A2b Bakery",
+  "c_Id": {
+    "$oid": "675ff9f51c02df17f8c2bd26"
+  },
+  "act": true,
+  "stock": [
+    {
+      "o_id": {
+        "$oid": "675ffb801c02df17f8c2bdc1"
+      },
+      "sp_id": {
+        "$oid": "675ffb801c02df17f8c2bdc2"
+      },
+      "spCode": "POS-A",
+      "spName": "POS-A",
+      "stock": {
+        "$numberDecimal": "-13"
+      },
+      "sRate": 25
+    },
+    {
+      "o_id": {
+        "$oid": "675ffb801c02df17f8c2bdc1"
+      },
+      "sp_id": {
+        "$oid": "675ffb801c02df17f8c2bdc2"
+      },
+      "spCode": "POS-A",
+      "spName": "POS-A",
+      "stock": {
+        "$numberDecimal": "-1"
+      },
+      "sRate": 25.25
+    },
+    {
+      "o_id": {
+        "$oid": "675ffb801c02df17f8c2bdc1"
+      },
+      "sp_id": {
+        "$oid": "675ffb801c02df17f8c2bdc2"
+      },
+      "spCode": "POS-A",
+      "spName": "POS-A",
+      "stock": {
+        "$numberDecimal": "-25.25"
+      },
+      "sRate": 552.25
+    },
+    {
+      "o_id": {
+        "$oid": "675ffb801c02df17f8c2bdc1"
+      },
+      "sp_id": {
+        "$oid": "675ffb801c02df17f8c2bdc2"
+      },
+      "spCode": "POS-A",
+      "spName": "POS-A",
+      "stock": {
+        "$numberDecimal": "-5"
+      },
+      "sRate": 2.5
+    },
+    {
+      "o_id": {
+        "$oid": "675ffb801c02df17f8c2bdc1"
+      },
+      "sp_id": {
+        "$oid": "675ffb801c02df17f8c2bdc2"
+      },
+      "spCode": "POS-A",
+      "spName": "POS-A",
+      "stock": {
+        "$numberDecimal": "-1"
+      },
+      "sRate": 2
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6773dbb5f9e8bad8ff7ddc2a"
+  },
+  "pName": "CHICKEN GRAVY",
+  "categ": "Menu",
+  "code": "8",
+  "subCateg": "",
+  "group": "",
+  "desc": null,
+  "imgUrl": "",
+  "unit": "KGS",
+  "tax": {
+    "taxCateg": "5%",
+    "rate": 5,
+    "sgst": 2.5,
+    "cgst": 2.5,
+    "igst": 5
+  },
+  "kotSection": null,
+  "hsnCode": "",
+  "minStock": 0,
+  "hasExp": true,
+  "isVeg": true,
+  "isDailyPick": false,
+  "hasStock": true,
+  "expDays": 1,
+  "usedFor": {
+    "purchase": false,
+    "pos": true,
+    "production": true,
+    "kot": true,
+    "packing": true
+  },
+  "sales": [
+    {
+      "salesMode": "Token",
+      "enable": true
+    },
+    {
+      "salesMode": "Take Away",
+      "enable": true
+    },
+    {
+      "salesMode": "Zomato",
+      "enable": true
+    },
+    {
+      "salesMode": "POS",
+      "enable": true
+    },
+    {
+      "salesMode": "Dining",
+      "enable": true
+    },
+    {
+      "salesMode": "Swiggy",
+      "enable": true
+    }
+  ],
+  "prodTypes": [
+    {
+      "prodType": "Bakery",
+      "enable": true
+    },
+    {
+      "prodType": "Icing",
+      "enable": true
+    },
+    {
+      "prodType": "Snacks",
+      "enable": true
+    }
+  ],
+  "pRate": 0,
+  "sRate": 0,
+  "mrp": 0,
+  "cost": 0,
+  "purchAc": {
+    "$oid": "675ff9f51c02df17f8c2bd45"
+  },
+  "purchAcName": "Purchase",
+  "salesAc": {
+    "$oid": "675ff9f51c02df17f8c2bd44"
+  },
+  "salesAcName": "Sales",
+  "salesComm": 1,
+  "totStock": {
+    "$numberDecimal": "-6"
+  },
+  "cAt": {
+    "$date": "2024-12-31T11:55:33.432Z"
+  },
+  "cBy": "A2b Bakery",
+  "c_Id": {
+    "$oid": "675ff9f51c02df17f8c2bd26"
+  },
+  "act": true,
+  "stock": [
+    {
+      "o_id": {
+        "$oid": "675ffb801c02df17f8c2bdc1"
+      },
+      "sp_id": {
+        "$oid": "675ffb801c02df17f8c2bdc2"
+      },
+      "spCode": "POS-A",
+      "spName": "POS-A",
+      "stock": {
+        "$numberDecimal": "-5"
+      },
+      "sRate": 25
+    },
+    {
+      "o_id": {
+        "$oid": "675ffb801c02df17f8c2bdc1"
+      },
+      "sp_id": {
+        "$oid": "675ffb801c02df17f8c2bdc2"
+      },
+      "spCode": "POS-A",
+      "spName": "POS-A",
+      "stock": {
+        "$numberDecimal": "-1"
+      },
+      "sRate": 33
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6773dc43f9e8bad8ff7ddc2c"
+  },
+  "pName": "MUTTON GRAVY",
+  "categ": "Menu",
+  "code": "9",
+  "subCateg": "",
+  "group": "",
+  "desc": null,
+  "imgUrl": "",
+  "unit": "KGS",
+  "tax": {
+    "taxCateg": "5%",
+    "rate": 5,
+    "sgst": 2.5,
+    "cgst": 2.5,
+    "igst": 5
+  },
+  "kotSection": null,
+  "hsnCode": "",
+  "minStock": 0,
+  "hasExp": true,
+  "isVeg": true,
+  "isDailyPick": false,
+  "hasStock": true,
+  "expDays": 2,
+  "usedFor": {
+    "purchase": true,
+    "pos": true,
+    "production": true,
+    "kot": true,
+    "packing": true
+  },
+  "sales": [
+    {
+      "salesMode": "Token",
+      "enable": true
+    },
+    {
+      "salesMode": "Take Away",
+      "enable": true
+    },
+    {
+      "salesMode": "Zomato",
+      "enable": true
+    },
+    {
+      "salesMode": "POS",
+      "enable": true
+    },
+    {
+      "salesMode": "Dining",
+      "enable": true
+    },
+    {
+      "salesMode": "Swiggy",
+      "enable": true
+    }
+  ],
+  "prodTypes": [
+    {
+      "prodType": "Bakery",
+      "enable": true
+    },
+    {
+      "prodType": "Icing",
+      "enable": true
+    },
+    {
+      "prodType": "Snacks",
+      "enable": true
+    }
+  ],
+  "pRate": 0,
+  "sRate": 0,
+  "mrp": 0,
+  "cost": 0,
+  "purchAc": {
+    "$oid": "675ff9f51c02df17f8c2bd45"
+  },
+  "purchAcName": "Purchase",
+  "salesAc": {
+    "$oid": "675ff9f51c02df17f8c2bd44"
+  },
+  "salesAcName": "Sales",
+  "salesComm": 2,
+  "totStock": {
+    "$numberDecimal": "0"
+  },
+  "cAt": {
+    "$date": "2024-12-31T11:57:55.521Z"
+  },
+  "cBy": "A2b Bakery",
+  "c_Id": {
+    "$oid": "675ff9f51c02df17f8c2bd26"
+  },
+  "act": true
+},
+{
+  "_id": {
+    "$oid": "677610a8c4735d800764478a"
+  },
+  "pName": "BUCKET BRIYANI 5 KG",
+  "categ": "Menu",
+  "code": "10",
+  "subCateg": "",
+  "group": "",
+  "desc": "",
+  "imgUrl": "",
+  "unit": "KGS",
+  "tax": {
+    "taxCateg": "5%",
+    "rate": 5,
+    "sgst": 2.5,
+    "cgst": 2.5,
+    "igst": 5
+  },
+  "kotSection": null,
+  "hsnCode": "",
+  "minStock": null,
+  "hasExp": false,
+  "isVeg": true,
+  "isDailyPick": false,
+  "hasStock": false,
+  "expDays": null,
+  "usedFor": {
+    "purchase": false,
+    "pos": true,
+    "production": true,
+    "kot": true,
+    "packing": true
+  },
+  "sales": [
+    {
+      "salesMode": "Zomato",
+      "enable": true
+    },
+    {
+      "salesMode": "Dining",
+      "enable": true
+    },
+    {
+      "salesMode": "POS",
+      "enable": true
+    },
+    {
+      "salesMode": "Take Away",
+      "enable": true
+    },
+    {
+      "salesMode": "Token",
+      "enable": true
+    },
+    {
+      "salesMode": "Swiggy",
+      "enable": true
+    }
+  ],
+  "prodTypes": [
+    {
+      "prodType": "Icing",
+      "enable": true
+    },
+    {
+      "prodType": "Snacks",
+      "enable": true
+    },
+    {
+      "prodType": "Bakery",
+      "enable": true
+    }
+  ],
+  "pRate": null,
+  "sRate": 1000,
+  "mrp": 1050,
+  "cost": 0,
+  "purchAc": {
+    "$oid": "675ff9f51c02df17f8c2bd45"
+  },
+  "purchAcName": "Purchase",
+  "salesAc": {
+    "$oid": "675ff9f51c02df17f8c2bd44"
+  },
+  "salesAcName": "Sales",
+  "salesComm": 2,
+  "totStock": {
+    "$numberDecimal": "0"
+  },
+  "cAt": {
+    "$date": "2025-01-02T04:06:00.157Z"
+  },
+  "cBy": "A2b Bakery",
+  "c_Id": {
+    "$oid": "675ff9f51c02df17f8c2bd26"
+  },
+  "act": true,
+  "uAt": {
+    "$date": "2025-01-02T04:12:43.147Z"
+  },
+  "uBy": "A2b Bakery",
+  "u_Id": {
+    "$oid": "675ff9f51c02df17f8c2bd26"
+  }
+},
+{
+  "_id": {
+    "$oid": "677610dfc4735d800764478c"
+  },
+  "pName": "CHICKEN 65",
+  "categ": "Menu",
+  "code": "11",
+  "subCateg": "",
+  "group": "",
+  "desc": "",
+  "imgUrl": "",
+  "unit": "KGS",
+  "tax": {
+    "taxCateg": "18%",
+    "rate": 18,
+    "sgst": 9,
+    "cgst": 9,
+    "igst": 18
+  },
+  "kotSection": null,
+  "hsnCode": "",
+  "minStock": 15,
+  "hasExp": true,
+  "isVeg": true,
+  "isDailyPick": false,
+  "hasStock": true,
+  "expDays": 1,
+  "usedFor": {
+    "purchase": false,
+    "pos": true,
+    "production": true,
+    "kot": true,
+    "packing": true
+  },
+  "sales": [
+    {
+      "salesMode": "Zomato",
+      "enable": true
+    },
+    {
+      "salesMode": "Dining",
+      "enable": true
+    },
+    {
+      "salesMode": "POS",
+      "enable": true
+    },
+    {
+      "salesMode": "Take Away",
+      "enable": true
+    },
+    {
+      "salesMode": "Token",
+      "enable": true
+    },
+    {
+      "salesMode": "Swiggy",
+      "enable": true
+    }
+  ],
+  "prodTypes": [
+    {
+      "prodType": "Icing",
+      "enable": true
+    },
+    {
+      "prodType": "Snacks",
+      "enable": true
+    },
+    {
+      "prodType": "Bakery",
+      "enable": true
+    }
+  ],
+  "pRate": null,
+  "sRate": 150,
+  "mrp": 177,
+  "cost": 0,
+  "purchAc": {
+    "$oid": "675ff9f51c02df17f8c2bd45"
+  },
+  "purchAcName": "Purchase",
+  "salesAc": {
+    "$oid": "675ff9f51c02df17f8c2bd44"
+  },
+  "salesAcName": "Sales",
+  "salesComm": 2,
+  "totStock": {
+    "$numberDecimal": "-24"
+  },
+  "cAt": {
+    "$date": "2025-01-02T04:06:55.025Z"
+  },
+  "cBy": "A2b Bakery",
+  "c_Id": {
+    "$oid": "675ff9f51c02df17f8c2bd26"
+  },
+  "act": true,
+  "uAt": {
+    "$date": "2025-01-02T04:14:20.066Z"
+  },
+  "uBy": "A2b Bakery",
+  "u_Id": {
+    "$oid": "675ff9f51c02df17f8c2bd26"
+  },
+  "stock": [
+    {
+      "o_id": {
+        "$oid": "675ffb801c02df17f8c2bdc1"
+      },
+      "sp_id": {
+        "$oid": "675ffb801c02df17f8c2bdc2"
+      },
+      "spCode": "POS-A",
+      "spName": "POS-A",
+      "stock": {
+        "$numberDecimal": "-24"
+      },
+      "sRate": 150
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67761122c4735d800764478e"
+  },
+  "pName": "ICE CREAM",
+  "categ": "Menu",
+  "code": "12",
+  "subCateg": "",
+  "group": "",
+  "desc": "",
+  "imgUrl": "",
+  "unit": "KGS",
+  "tax": {
+    "taxCateg": "5%",
+    "rate": 5,
+    "sgst": 2.5,
+    "cgst": 2.5,
+    "igst": 5
+  },
+  "kotSection": {
+    "_id": {
+      "$oid": "6782373b0a552edef0016f4b"
+    },
+    "section": "CHOCO"
+  },
+  "hsnCode": "",
+  "minStock": 1,
+  "hasExp": true,
+  "isVeg": true,
+  "isDailyPick": false,
+  "hasStock": true,
+  "expDays": 1,
+  "usedFor": {
+    "purchase": false,
+    "pos": true,
+    "production": true,
+    "kot": true,
+    "packing": true
+  },
+  "sales": [
+    {
+      "salesMode": "Dining",
+      "enable": true
+    },
+    {
+      "salesMode": "Zomato",
+      "enable": true
+    },
+    {
+      "salesMode": "Swiggy",
+      "enable": true
+    },
+    {
+      "salesMode": "Take Away",
+      "enable": true
+    },
+    {
+      "salesMode": "Token",
+      "enable": true
+    },
+    {
+      "salesMode": "POS",
+      "enable": true
+    }
+  ],
+  "prodTypes": [
+    {
+      "prodType": "Bakery",
+      "enable": true
+    },
+    {
+      "prodType": "Icing",
+      "enable": true
+    },
+    {
+      "prodType": "Snacks",
+      "enable": true
+    }
+  ],
+  "pRate": null,
+  "sRate": 35,
+  "mrp": 37,
+  "cost": 0,
+  "purchAc": {
+    "$oid": "675ff9f51c02df17f8c2bd45"
+  },
+  "purchAcName": "Purchase",
+  "salesAc": {
+    "$oid": "675ff9f51c02df17f8c2bd44"
+  },
+  "salesAcName": "Sales",
+  "salesComm": 2,
+  "totStock": {
+    "$numberDecimal": "-67.5000000000000"
+  },
+  "cAt": {
+    "$date": "2025-01-02T04:08:02.426Z"
+  },
+  "cBy": "A2b Bakery",
+  "c_Id": {
+    "$oid": "675ff9f51c02df17f8c2bd26"
+  },
+  "act": true,
+  "uAt": {
+    "$date": "2025-01-11T09:17:57.359Z"
+  },
+  "uBy": "A2b Bakery",
+  "u_Id": {
+    "$oid": "675ff9f51c02df17f8c2bd26"
+  },
+  "stock": [
+    {
+      "o_id": {
+        "$oid": "675ffb801c02df17f8c2bdc1"
+      },
+      "sp_id": {
+        "$oid": "675ffb801c02df17f8c2bdc2"
+      },
+      "spCode": "POS-A",
+      "spName": "POS-A",
+      "stock": {
+        "$numberDecimal": "-67.5000000000000"
+      },
+      "sRate": 35
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67761170c4735d8007644790"
+  },
+  "pName": "BREAD HALWA",
+  "categ": "Menu",
+  "code": "13",
+  "subCateg": "",
+  "group": "",
+  "desc": "",
+  "imgUrl": "",
+  "unit": "KGS",
+  "tax": {
+    "taxCateg": "5%",
+    "rate": 5,
+    "sgst": 2.5,
+    "cgst": 2.5,
+    "igst": 5
+  },
+  "kotSection": null,
+  "hsnCode": "",
+  "minStock": 10,
+  "hasExp": true,
+  "isVeg": true,
+  "isDailyPick": false,
+  "hasStock": true,
+  "expDays": 1,
+  "usedFor": {
+    "purchase": false,
+    "pos": true,
+    "production": true,
+    "kot": true,
+    "packing": true
+  },
+  "sales": [
+    {
+      "salesMode": "Zomato",
+      "enable": true
+    },
+    {
+      "salesMode": "Dining",
+      "enable": true
+    },
+    {
+      "salesMode": "POS",
+      "enable": true
+    },
+    {
+      "salesMode": "Take Away",
+      "enable": true
+    },
+    {
+      "salesMode": "Token",
+      "enable": true
+    },
+    {
+      "salesMode": "Swiggy",
+      "enable": true
+    }
+  ],
+  "prodTypes": [
+    {
+      "prodType": "Icing",
+      "enable": true
+    },
+    {
+      "prodType": "Snacks",
+      "enable": true
+    },
+    {
+      "prodType": "Bakery",
+      "enable": true
+    }
+  ],
+  "pRate": null,
+  "sRate": 50,
+  "mrp": 53,
+  "cost": 0,
+  "purchAc": "",
+  "purchAcName": "",
+  "salesAc": {
+    "$oid": "675ff9f51c02df17f8c2bd44"
+  },
+  "salesAcName": "Sales",
+  "salesComm": 2,
+  "totStock": {
+    "$numberDecimal": "-45"
+  },
+  "cAt": {
+    "$date": "2025-01-02T04:09:20.677Z"
+  },
+  "cBy": "A2b Bakery",
+  "c_Id": {
+    "$oid": "675ff9f51c02df17f8c2bd26"
+  },
+  "act": true,
+  "uAt": {
+    "$date": "2025-01-02T04:13:44.792Z"
+  },
+  "uBy": "A2b Bakery",
+  "u_Id": {
+    "$oid": "675ff9f51c02df17f8c2bd26"
+  },
+  "stock": [
+    {
+      "o_id": {
+        "$oid": "675ffb801c02df17f8c2bdc1"
+      },
+      "sp_id": {
+        "$oid": "675ffb801c02df17f8c2bdc2"
+      },
+      "spCode": "POS-A",
+      "spName": "POS-A",
+      "stock": {
+        "$numberDecimal": "-45"
+      },
+      "sRate": 50
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677611e6c4735d8007644793"
+  },
+  "pName": "STEAMED EGG",
+  "categ": "Menu",
+  "code": "14",
+  "subCateg": "",
+  "group": "",
+  "desc": "",
+  "imgUrl": "",
+  "unit": "KGS",
+  "tax": {
+    "taxCateg": "5%",
+    "rate": 5,
+    "sgst": 2.5,
+    "cgst": 2.5,
+    "igst": 5
+  },
+  "kotSection": {
+    "_id": {
+      "$oid": "678237250a552edef0016f48"
+    },
+    "section": "SNACKS"
+  },
+  "hsnCode": "",
+  "minStock": 10,
+  "hasExp": true,
+  "isVeg": true,
+  "isDailyPick": false,
+  "hasStock": true,
+  "expDays": 1,
+  "usedFor": {
+    "purchase": false,
+    "pos": true,
+    "production": true,
+    "kot": true,
+    "packing": true
+  },
+  "sales": [
+    {
+      "salesMode": "Dining",
+      "enable": true
+    },
+    {
+      "salesMode": "Zomato",
+      "enable": true
+    },
+    {
+      "salesMode": "Swiggy",
+      "enable": true
+    },
+    {
+      "salesMode": "Take Away",
+      "enable": true
+    },
+    {
+      "salesMode": "Token",
+      "enable": true
+    },
+    {
+      "salesMode": "POS",
+      "enable": true
+    }
+  ],
+  "prodTypes": [
+    {
+      "prodType": "Bakery",
+      "enable": true
+    },
+    {
+      "prodType": "Icing",
+      "enable": true
+    },
+    {
+      "prodType": "Snacks",
+      "enable": true
+    }
+  ],
+  "pRate": null,
+  "sRate": 50,
+  "mrp": 53,
+  "cost": 0,
+  "purchAc": {
+    "$oid": "675ff9f51c02df17f8c2bd45"
+  },
+  "purchAcName": "Purchase",
+  "salesAc": {
+    "$oid": "675ff9f51c02df17f8c2bd44"
+  },
+  "salesAcName": "Sales",
+  "salesComm": 2,
+  "totStock": {
+    "$numberDecimal": "-13.25000000000000"
+  },
+  "cAt": {
+    "$date": "2025-01-02T04:11:18.894Z"
+  },
+  "cBy": "A2b Bakery",
+  "c_Id": {
+    "$oid": "675ff9f51c02df17f8c2bd26"
+  },
+  "act": true,
+  "uAt": {
+    "$date": "2025-01-11T09:17:33.457Z"
+  },
+  "uBy": "A2b Bakery",
+  "u_Id": {
+    "$oid": "675ff9f51c02df17f8c2bd26"
+  },
+  "stock": [
+    {
+      "o_id": {
+        "$oid": "675ffb801c02df17f8c2bdc1"
+      },
+      "sp_id": {
+        "$oid": "675ffb801c02df17f8c2bdc2"
+      },
+      "spCode": "POS-A",
+      "spName": "POS-A",
+      "stock": {
+        "$numberDecimal": "-13.25000000000000"
+      },
+      "sRate": 50
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67763e482f73c42f3abda390"
+  },
+  "pName": "SALT",
+  "categ": "Raw Materials",
+  "code": "15",
+  "subCateg": "",
+  "group": "",
+  "desc": null,
+  "imgUrl": "",
+  "unit": "KGS",
+  "tax": {
+    "taxCateg": "5%",
+    "rate": 5,
+    "sgst": 2.5,
+    "cgst": 2.5,
+    "igst": 5
+  },
+  "kotSection": null,
+  "hsnCode": "",
+  "minStock": 0,
+  "hasExp": false,
+  "isVeg": false,
+  "isDailyPick": false,
+  "hasStock": true,
+  "expDays": null,
+  "usedFor": {
+    "purchase": true,
+    "pos": false,
+    "production": true,
+    "kot": false,
+    "packing": false
+  },
+  "sales": [
+    {
+      "salesMode": "Take Away",
+      "enable": false
+    },
+    {
+      "salesMode": "Token",
+      "enable": false
+    },
+    {
+      "salesMode": "Swiggy",
+      "enable": false
+    },
+    {
+      "salesMode": "Zomato",
+      "enable": false
+    },
+    {
+      "salesMode": "POS",
+      "enable": false
+    },
+    {
+      "salesMode": "Dining",
+      "enable": false
+    }
+  ],
+  "prodTypes": [
+    {
+      "prodType": "Icing",
+      "enable": true
+    },
+    {
+      "prodType": "Snacks",
+      "enable": true
+    },
+    {
+      "prodType": "Bakery",
+      "enable": true
+    }
+  ],
+  "pRate": 25,
+  "sRate": 0,
+  "mrp": 0,
+  "cost": 25,
+  "purchAc": {
+    "$oid": "675ff9f51c02df17f8c2bd45"
+  },
+  "purchAcName": "Purchase",
+  "salesAc": {
+    "$oid": "675ff9f51c02df17f8c2bd44"
+  },
+  "salesAcName": "Sales",
+  "salesComm": null,
+  "totStock": {
+    "$numberDecimal": "0"
+  },
+  "cAt": {
+    "$date": "2025-01-02T07:20:40.224Z"
+  },
+  "cBy": "A2b Bakery",
+  "c_Id": {
+    "$oid": "675ff9f51c02df17f8c2bd26"
+  },
+  "act": true
+},
+{
+  "_id": {
+    "$oid": "6776564d2f73c42f3abda559"
+  },
+  "pName": "CARROT HALWA",
+  "categ": "Menu",
+  "code": "16",
+  "subCateg": "",
+  "group": "",
+  "desc": "",
+  "imgUrl": "",
+  "unit": "KGS",
+  "tax": {
+    "taxCateg": "5%",
+    "rate": 5,
+    "sgst": 2.5,
+    "cgst": 2.5,
+    "igst": 5
+  },
+  "kotSection": {
+    "_id": {
+      "$oid": "677fb70f6cfcf95de36188ec"
+    },
+    "section": "Chats"
+  },
+  "hsnCode": "",
+  "minStock": null,
+  "hasExp": true,
+  "isVeg": true,
+  "isDailyPick": false,
+  "hasStock": true,
+  "expDays": 1,
+  "usedFor": {
+    "purchase": false,
+    "pos": true,
+    "production": true,
+    "kot": true,
+    "packing": true
+  },
+  "sales": [
+    {
+      "salesMode": "Token",
+      "enable": true
+    },
+    {
+      "salesMode": "Take Away",
+      "enable": true
+    },
+    {
+      "salesMode": "Zomato",
+      "enable": true
+    },
+    {
+      "salesMode": "Dining",
+      "enable": true
+    },
+    {
+      "salesMode": "POS",
+      "enable": true
+    },
+    {
+      "salesMode": "Swiggy",
+      "enable": true
+    }
+  ],
+  "prodTypes": [
+    {
+      "prodType": "Icing",
+      "enable": true
+    },
+    {
+      "prodType": "Snacks",
+      "enable": true
+    },
+    {
+      "prodType": "Bakery",
+      "enable": true
+    }
+  ],
+  "pRate": null,
+  "sRate": 35,
+  "mrp": 37,
+  "cost": 0,
+  "purchAc": {
+    "$oid": "675ff9f51c02df17f8c2bd45"
+  },
+  "purchAcName": "Purchase",
+  "salesAc": {
+    "$oid": "675ff9f51c02df17f8c2bd44"
+  },
+  "salesAcName": "Sales",
+  "salesComm": 2,
+  "totStock": {
+    "$numberDecimal": "-53"
+  },
+  "cAt": {
+    "$date": "2025-01-02T09:03:09.738Z"
+  },
+  "cBy": "A2b Bakery",
+  "c_Id": {
+    "$oid": "675ff9f51c02df17f8c2bd26"
+  },
+  "act": true,
+  "stock": [
+    {
+      "o_id": {
+        "$oid": "675ffb801c02df17f8c2bdc1"
+      },
+      "sp_id": {
+        "$oid": "675ffb801c02df17f8c2bdc2"
+      },
+      "spCode": "POS-A",
+      "spName": "POS-A",
+      "stock": {
+        "$numberDecimal": "-53"
+      },
+      "sRate": 35
+    }
+  ],
+  "uAt": {
+    "$date": "2025-01-10T06:11:21.191Z"
+  },
+  "uBy": "A2b Bakery",
+  "u_Id": {
+    "$oid": "675ff9f51c02df17f8c2bd26"
+  }
+},
+{
+  "_id": {
+    "$oid": "67765d602f73c42f3abda5e2"
+  },
+  "pName": "BOOST HORLICKS",
+  "categ": "Menu",
+  "code": "17",
+  "subCateg": "",
+  "group": "",
+  "desc": "",
+  "imgUrl": "",
+  "unit": "KGS",
+  "tax": {
+    "taxCateg": "18%",
+    "rate": 18,
+    "sgst": 9,
+    "cgst": 9,
+    "igst": 18
+  },
+  "kotSection": {
+    "_id": {
+      "$oid": "677fb70c6cfcf95de36188ea"
+    },
+    "section": "Juice"
+  },
+  "hsnCode": "",
+  "minStock": null,
+  "hasExp": true,
+  "isVeg": true,
+  "isDailyPick": false,
+  "hasStock": true,
+  "expDays": 1,
+  "usedFor": {
+    "purchase": false,
+    "pos": true,
+    "production": true,
+    "kot": true,
+    "packing": true
+  },
+  "sales": [
+    {
+      "salesMode": "Token",
+      "enable": true
+    },
+    {
+      "salesMode": "Take Away",
+      "enable": true
+    },
+    {
+      "salesMode": "Zomato",
+      "enable": true
+    },
+    {
+      "salesMode": "Dining",
+      "enable": true
+    },
+    {
+      "salesMode": "POS",
+      "enable": true
+    },
+    {
+      "salesMode": "Swiggy",
+      "enable": true
+    }
+  ],
+  "prodTypes": [
+    {
+      "prodType": "Icing",
+      "enable": true
+    },
+    {
+      "prodType": "Snacks",
+      "enable": true
+    },
+    {
+      "prodType": "Bakery",
+      "enable": true
+    }
+  ],
+  "pRate": null,
+  "sRate": 20,
+  "mrp": 24,
+  "cost": 0,
+  "purchAc": {
+    "$oid": "675ff9f51c02df17f8c2bd45"
+  },
+  "purchAcName": "Purchase",
+  "salesAc": {
+    "$oid": "675ff9f51c02df17f8c2bd44"
+  },
+  "salesAcName": "Sales",
+  "salesComm": 2,
+  "totStock": {
+    "$numberDecimal": "-30"
+  },
+  "cAt": {
+    "$date": "2025-01-02T09:33:20.516Z"
+  },
+  "cBy": "A2b Bakery",
+  "c_Id": {
+    "$oid": "675ff9f51c02df17f8c2bd26"
+  },
+  "act": true,
+  "stock": [
+    {
+      "o_id": {
+        "$oid": "675ffb801c02df17f8c2bdc1"
+      },
+      "sp_id": {
+        "$oid": "675ffb801c02df17f8c2bdc2"
+      },
+      "spCode": "POS-A",
+      "spName": "POS-A",
+      "stock": {
+        "$numberDecimal": "-30"
+      },
+      "sRate": 20
+    }
+  ],
+  "uAt": {
+    "$date": "2025-01-10T06:11:12.535Z"
+  },
+  "uBy": "A2b Bakery",
+  "u_Id": {
+    "$oid": "675ff9f51c02df17f8c2bd26"
+  }
+},
+{
+  "_id": {
+    "$oid": "6781fe730a552edef0016f0a"
+  },
+  "pName": "Banana Bread with Milk and honey with choco filled",
+  "categ": "Menu",
+  "code": "20",
+  "subCateg": "",
+  "group": "",
+  "desc": "",
+  "imgUrl": "",
+  "unit": "KGS",
+  "tax": {
+    "taxCateg": "5%",
+    "rate": 5,
+    "sgst": 2.5,
+    "cgst": 2.5,
+    "igst": 5
+  },
+  "kotSection": {
+    "_id": {
+      "$oid": "677fb70f6cfcf95de36188ec"
+    },
+    "section": "Chats"
+  },
+  "hsnCode": "",
+  "minStock": 250,
+  "hasExp": true,
+  "isVeg": true,
+  "isDailyPick": false,
+  "hasStock": true,
+  "expDays": 1,
+  "usedFor": {
+    "purchase": false,
+    "pos": true,
+    "production": true,
+    "kot": true,
+    "packing": true
+  },
+  "sales": [
+    {
+      "salesMode": "Token",
+      "enable": true
+    },
+    {
+      "salesMode": "Zomato",
+      "enable": true
+    },
+    {
+      "salesMode": "Swiggy",
+      "enable": true
+    },
+    {
+      "salesMode": "POS",
+      "enable": true
+    },
+    {
+      "salesMode": "Dining",
+      "enable": true
+    },
+    {
+      "salesMode": "Take Away",
+      "enable": true
+    }
+  ],
+  "prodTypes": [
+    {
+      "prodType": "Icing",
+      "enable": true
+    },
+    {
+      "prodType": "Snacks",
+      "enable": true
+    },
+    {
+      "prodType": "Bakery",
+      "enable": true
+    }
+  ],
+  "pRate": null,
+  "sRate": null,
+  "mrp": 0,
+  "cost": 0,
+  "purchAc": {
+    "$oid": "675ff9f51c02df17f8c2bd45"
+  },
+  "purchAcName": "Purchase",
+  "salesAc": {
+    "$oid": "675ff9f51c02df17f8c2bd44"
+  },
+  "salesAcName": "Sales",
+  "salesComm": 4,
+  "totStock": {
+    "$numberDecimal": "-7"
+  },
+  "cAt": {
+    "$date": "2025-01-11T05:15:31.296Z"
+  },
+  "cBy": "A2b Bakery",
+  "c_Id": {
+    "$oid": "675ff9f51c02df17f8c2bd26"
+  },
+  "act": true,
+  "uAt": {
+    "$date": "2025-01-11T05:55:59.344Z"
+  },
+  "uBy": "A2b Bakery",
+  "u_Id": {
+    "$oid": "675ff9f51c02df17f8c2bd26"
+  },
+  "stock": [
+    {
+      "o_id": {
+        "$oid": "675ffb801c02df17f8c2bdc1"
+      },
+      "sp_id": {
+        "$oid": "675ffb801c02df17f8c2bdc2"
+      },
+      "spCode": "POS-A",
+      "spName": "POS-A",
+      "stock": {
+        "$numberDecimal": "-2"
+      },
+      "sRate": 25
+    },
+    {
+      "o_id": {
+        "$oid": "675ffb801c02df17f8c2bdc1"
+      },
+      "sp_id": {
+        "$oid": "675ffb801c02df17f8c2bdc2"
+      },
+      "spCode": "POS-A",
+      "spName": "POS-A",
+      "stock": {
+        "$numberDecimal": "-5"
+      },
+      "sRate": 5
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "678254c40a552edef0016fe0"
+  },
+  "pName": "Saathukudi JUICE",
+  "categ": "Menu",
+  "code": "21",
+  "subCateg": "",
+  "group": "",
+  "desc": null,
+  "imgUrl": "",
+  "unit": "LITRE",
+  "tax": {
+    "taxCateg": "5%",
+    "rate": 5,
+    "sgst": 2.5,
+    "cgst": 2.5,
+    "igst": 5
+  },
+  "kotSection": {
+    "_id": {
+      "$oid": "677fb70c6cfcf95de36188ea"
+    },
+    "section": "Juice"
+  },
+  "hsnCode": "",
+  "minStock": 0,
+  "hasExp": true,
+  "isVeg": true,
+  "isDailyPick": false,
+  "hasStock": true,
+  "expDays": 3,
+  "usedFor": {
+    "purchase": false,
+    "pos": true,
+    "production": true,
+    "kot": true,
+    "packing": true
+  },
+  "sales": [
+    {
+      "salesMode": "Token",
+      "enable": true
+    },
+    {
+      "salesMode": "Take Away",
+      "enable": true
+    },
+    {
+      "salesMode": "Zomato",
+      "enable": true
+    },
+    {
+      "salesMode": "Dining",
+      "enable": true
+    },
+    {
+      "salesMode": "POS",
+      "enable": true
+    },
+    {
+      "salesMode": "Swiggy",
+      "enable": true
+    }
+  ],
+  "prodTypes": [
+    {
+      "prodType": "Icing",
+      "enable": true
+    },
+    {
+      "prodType": "Snacks",
+      "enable": true
+    },
+    {
+      "prodType": "Bakery",
+      "enable": true
+    }
+  ],
+  "pRate": 0,
+  "sRate": 0,
+  "mrp": 0,
+  "cost": 0,
+  "purchAc": {
+    "$oid": "675ff9f51c02df17f8c2bd45"
+  },
+  "purchAcName": "Purchase",
+  "salesAc": {
+    "$oid": "675ff9f51c02df17f8c2bd44"
+  },
+  "salesAcName": "Sales",
+  "salesComm": 2,
+  "totStock": {
+    "$numberDecimal": "-43"
+  },
+  "cAt": {
+    "$date": "2025-01-11T11:23:48.687Z"
+  },
+  "cBy": "A2b Bakery",
+  "c_Id": {
+    "$oid": "675ff9f51c02df17f8c2bd26"
+  },
+  "act": true,
+  "stock": [
+    {
+      "o_id": {
+        "$oid": "675ffb801c02df17f8c2bdc1"
+      },
+      "sp_id": {
+        "$oid": "675ffb801c02df17f8c2bdc2"
+      },
+      "spCode": "POS-A",
+      "spName": "POS-A",
+      "stock": {
+        "$numberDecimal": "-3"
+      },
+      "sRate": 50
+    },
+    {
+      "o_id": {
+        "$oid": "675ffb801c02df17f8c2bdc1"
+      },
+      "sp_id": {
+        "$oid": "675ffb801c02df17f8c2bdc2"
+      },
+      "spCode": "POS-A",
+      "spName": "POS-A",
+      "stock": {
+        "$numberDecimal": "-40"
+      },
+      "sRate": 25
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "678254dc0a552edef0016fe2"
+  },
+  "pName": "Mathulai JUICE",
+  "categ": "Menu",
+  "code": "22",
+  "subCateg": "",
+  "group": "",
+  "desc": null,
+  "imgUrl": "",
+  "unit": "LITRE",
+  "tax": {
+    "taxCateg": "5%",
+    "rate": 5,
+    "sgst": 2.5,
+    "cgst": 2.5,
+    "igst": 5
+  },
+  "kotSection": {
+    "_id": {
+      "$oid": "677fb70c6cfcf95de36188ea"
+    },
+    "section": "Juice"
+  },
+  "hsnCode": "",
+  "minStock": 0,
+  "hasExp": true,
+  "isVeg": true,
+  "isDailyPick": false,
+  "hasStock": true,
+  "expDays": 2,
+  "usedFor": {
+    "purchase": false,
+    "pos": true,
+    "production": true,
+    "kot": true,
+    "packing": true
+  },
+  "sales": [
+    {
+      "salesMode": "Token",
+      "enable": true
+    },
+    {
+      "salesMode": "Take Away",
+      "enable": true
+    },
+    {
+      "salesMode": "Zomato",
+      "enable": true
+    },
+    {
+      "salesMode": "Dining",
+      "enable": true
+    },
+    {
+      "salesMode": "POS",
+      "enable": true
+    },
+    {
+      "salesMode": "Swiggy",
+      "enable": true
+    }
+  ],
+  "prodTypes": [
+    {
+      "prodType": "Icing",
+      "enable": true
+    },
+    {
+      "prodType": "Snacks",
+      "enable": true
+    },
+    {
+      "prodType": "Bakery",
+      "enable": true
+    }
+  ],
+  "pRate": 0,
+  "sRate": 0,
+  "mrp": 0,
+  "cost": 0,
+  "purchAc": "",
+  "purchAcName": "",
+  "salesAc": {
+    "$oid": "675ff9f51c02df17f8c2bd44"
+  },
+  "salesAcName": "Sales",
+  "salesComm": 3,
+  "totStock": {
+    "$numberDecimal": "-3"
+  },
+  "cAt": {
+    "$date": "2025-01-11T11:24:12.450Z"
+  },
+  "cBy": "A2b Bakery",
+  "c_Id": {
+    "$oid": "675ff9f51c02df17f8c2bd26"
+  },
+  "act": true,
+  "stock": [
+    {
+      "o_id": {
+        "$oid": "675ffb801c02df17f8c2bdc1"
+      },
+      "sp_id": {
+        "$oid": "675ffb801c02df17f8c2bdc2"
+      },
+      "spCode": "POS-A",
+      "spName": "POS-A",
+      "stock": {
+        "$numberDecimal": "-3"
+      },
+      "sRate": 50
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "678255060a552edef0016fe4"
+  },
+  "pName": "Samosa",
+  "categ": "Menu",
+  "code": "23",
+  "subCateg": "",
+  "group": "",
+  "desc": null,
+  "imgUrl": "",
+  "unit": "KGS",
+  "tax": {
+    "taxCateg": "5%",
+    "rate": 5,
+    "sgst": 2.5,
+    "cgst": 2.5,
+    "igst": 5
+  },
+  "kotSection": {
+    "_id": {
+      "$oid": "678237250a552edef0016f48"
+    },
+    "section": "SNACKS"
+  },
+  "hsnCode": "",
+  "minStock": 0,
+  "hasExp": true,
+  "isVeg": true,
+  "isDailyPick": false,
+  "hasStock": true,
+  "expDays": 2,
+  "usedFor": {
+    "purchase": false,
+    "pos": true,
+    "production": true,
+    "kot": true,
+    "packing": true
+  },
+  "sales": [
+    {
+      "salesMode": "Token",
+      "enable": true
+    },
+    {
+      "salesMode": "Take Away",
+      "enable": true
+    },
+    {
+      "salesMode": "Zomato",
+      "enable": true
+    },
+    {
+      "salesMode": "Dining",
+      "enable": true
+    },
+    {
+      "salesMode": "POS",
+      "enable": true
+    },
+    {
+      "salesMode": "Swiggy",
+      "enable": true
+    }
+  ],
+  "prodTypes": [
+    {
+      "prodType": "Icing",
+      "enable": true
+    },
+    {
+      "prodType": "Snacks",
+      "enable": true
+    },
+    {
+      "prodType": "Bakery",
+      "enable": true
+    }
+  ],
+  "pRate": 0,
+  "sRate": 0,
+  "mrp": 0,
+  "cost": 0,
+  "purchAc": {
+    "$oid": "675ff9f51c02df17f8c2bd45"
+  },
+  "purchAcName": "Purchase",
+  "salesAc": {
+    "$oid": "675ff9f51c02df17f8c2bd44"
+  },
+  "salesAcName": "Sales",
+  "salesComm": 2,
+  "totStock": {
+    "$numberDecimal": "-3"
+  },
+  "cAt": {
+    "$date": "2025-01-11T11:24:54.393Z"
+  },
+  "cBy": "A2b Bakery",
+  "c_Id": {
+    "$oid": "675ff9f51c02df17f8c2bd26"
+  },
+  "act": true,
+  "stock": [
+    {
+      "o_id": {
+        "$oid": "675ffb801c02df17f8c2bdc1"
+      },
+      "sp_id": {
+        "$oid": "675ffb801c02df17f8c2bdc2"
+      },
+      "spCode": "POS-A",
+      "spName": "POS-A",
+      "stock": {
+        "$numberDecimal": "-2"
+      },
+      "sRate": 50
+    },
+    {
+      "o_id": {
+        "$oid": "675ffb801c02df17f8c2bdc1"
+      },
+      "sp_id": {
+        "$oid": "675ffb801c02df17f8c2bdc2"
+      },
+      "spCode": "POS-A",
+      "spName": "POS-A",
+      "stock": {
+        "$numberDecimal": "-1"
+      },
+      "sRate": 16
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "678732f16e20df7076ee0019"
+  },
+  "pName": "Paneer Puffs",
+  "categ": "Menu",
+  "code": "24",
+  "subCateg": "",
+  "group": "",
+  "desc": "",
+  "imgUrl": "",
+  "unit": "KGS",
+  "tax": {
+    "taxCateg": "5%",
+    "rate": 5,
+    "sgst": 2.5,
+    "cgst": 2.5,
+    "igst": 5
+  },
+  "kotSection": {
+    "_id": {
+      "$oid": "677fb70c6cfcf95de36188ea"
+    },
+    "section": "Juice"
+  },
+  "hsnCode": "",
+  "minStock": null,
+  "hasExp": true,
+  "isVeg": true,
+  "isFrequentSales": false,
+  "isDailyPick": false,
+  "hasStock": true,
+  "expDays": 2,
+  "usedFor": {
+    "purchase": true,
+    "pos": true,
+    "production": true,
+    "kot": true,
+    "packing": true
+  },
+  "sales": [
+    {
+      "salesMode": "Token",
+      "enable": true
+    },
+    {
+      "salesMode": "Take Away",
+      "enable": true
+    },
+    {
+      "salesMode": "Zomato",
+      "enable": true
+    },
+    {
+      "salesMode": "Dining",
+      "enable": true
+    },
+    {
+      "salesMode": "POS",
+      "enable": true
+    },
+    {
+      "salesMode": "Swiggy",
+      "enable": true
+    }
+  ],
+  "prodTypes": [
+    {
+      "prodType": "Bakery",
+      "enable": true
+    },
+    {
+      "prodType": "Icing",
+      "enable": true
+    },
+    {
+      "prodType": "Snacks",
+      "enable": true
+    }
+  ],
+  "pRate": 18,
+  "sRate": 30,
+  "mrp": 30,
+  "cost": 19.33,
+  "purchAc": {
+    "$oid": "675ff9f51c02df17f8c2bd45"
+  },
+  "purchAcName": "Purchase",
+  "salesAc": {
+    "$oid": "675ff9f51c02df17f8c2bd44"
+  },
+  "salesAcName": "Sales",
+  "salesComm": 5,
+  "totStock": {
+    "$numberDecimal": "15"
+  },
+  "cAt": {
+    "$date": "2025-01-15T04:00:49.127Z"
+  },
+  "cBy": "A2b Bakery",
+  "c_Id": {
+    "$oid": "675ff9f51c02df17f8c2bd26"
+  },
+  "act": true,
+  "uAt": {
+    "$date": "2025-01-15T04:03:22.764Z"
+  },
+  "uBy": "A2b Bakery",
+  "u_Id": {
+    "$oid": "675ff9f51c02df17f8c2bd26"
+  },
+  "vendor": [
+    {
+      "_id": {
+        "$oid": "6760008a1c02df17f8c2be10"
+      },
+      "vName": "RENU VENDORS",
+      "pRate": 18
+    }
+  ],
+  "stock": [
+    {
+      "o_id": {
+        "$oid": "675ffb801c02df17f8c2bdc1"
+      },
+      "sp_id": {
+        "$oid": "675ffb801c02df17f8c2bdc2"
+      },
+      "spCode": "POS-A",
+      "spName": "POS-A",
+      "stock": {
+        "$numberDecimal": "0"
+      },
+      "sRate": 23.81,
+      "expDate": {
+        "$date": "2025-01-17T18:29:59.999Z"
+      }
+    },
+    {
+      "o_id": {
+        "$oid": "675ffb801c02df17f8c2bdc1"
+      },
+      "sp_id": {
+        "$oid": "675ffb801c02df17f8c2bdc2"
+      },
+      "spCode": "POS-A",
+      "spName": "POS-A",
+      "stock": {
+        "$numberDecimal": "0"
+      },
+      "sRate": 30,
+      "expDate": {
+        "$date": "2025-01-17T18:29:59.999Z"
+      }
+    },
+    {
+      "o_id": {
+        "$oid": "675ffb801c02df17f8c2bdc1"
+      },
+      "sp_id": {
+        "$oid": "675ffb801c02df17f8c2bdc2"
+      },
+      "spCode": "POS-A",
+      "spName": "POS-A",
+      "stock": {
+        "$numberDecimal": "5"
+      },
+      "sRate": 30,
+      "expDate": {
+        "$date": "2025-01-16T18:29:59.999Z"
+      }
+    },
+    {
+      "o_id": {
+        "$oid": "675ffb801c02df17f8c2bdc1"
+      },
+      "sp_id": {
+        "$oid": "675ffb801c02df17f8c2bdc2"
+      },
+      "spCode": "POS-A",
+      "spName": "POS-A",
+      "stock": {
+        "$numberDecimal": "10"
+      },
+      "sRate": 30,
+      "expDate": {
+        "$date": "2025-01-15T18:29:59.999Z"
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "678b60b8f8498b37a135deb5"
+  },
+  "pName": "MUSCOTH HALWA",
+  "categ": "Menu",
+  "code": "25",
+  "subCateg": "",
+  "group": "",
+  "desc": null,
+  "imgUrl": "",
+  "unit": "KGS",
+  "tax": {
+    "taxCateg": "5%",
+    "rate": 5,
+    "sgst": 2.5,
+    "cgst": 2.5,
+    "igst": 5
+  },
+  "kotSection": {
+    "_id": {
+      "$oid": "678237250a552edef0016f48"
+    },
+    "section": "SNACKS"
+  },
+  "hsnCode": "",
+  "minStock": 250,
+  "hasExp": true,
+  "isVeg": true,
+  "isFrequentSales": false,
+  "isDailyPick": false,
+  "hasStock": true,
+  "expDays": 12,
+  "usedFor": {
+    "purchase": true,
+    "pos": true,
+    "production": true,
+    "kot": true,
+    "packing": true
+  },
+  "sales": [
+    {
+      "salesMode": "Token",
+      "enable": true
+    },
+    {
+      "salesMode": "POS",
+      "enable": true
+    },
+    {
+      "salesMode": "Zomato",
+      "enable": true
+    },
+    {
+      "salesMode": "Take Away",
+      "enable": true
+    },
+    {
+      "salesMode": "Swiggy",
+      "enable": true
+    },
+    {
+      "salesMode": "Dining",
+      "enable": true
+    }
+  ],
+  "prodTypes": [
+    {
+      "prodType": "Snacks",
+      "enable": true
+    },
+    {
+      "prodType": "Icing",
+      "enable": true
+    },
+    {
+      "prodType": "Bakery",
+      "enable": true
+    }
+  ],
+  "pRate": 55,
+  "sRate": 65,
+  "mrp": 65,
+  "cost": 0,
+  "purchAc": {
+    "$oid": "675ff9f51c02df17f8c2bd45"
+  },
+  "purchAcName": "Purchase",
+  "salesAc": {
+    "$oid": "675ff9f51c02df17f8c2bd44"
+  },
+  "salesAcName": "Sales",
+  "salesComm": 2,
+  "totStock": {
+    "$numberDecimal": "5"
+  },
+  "cAt": {
+    "$date": "2025-01-18T08:05:12.326Z"
+  },
+  "cBy": "Esakkiraj",
+  "c_Id": {
+    "$oid": "675ff9f51c02df17f8c2bd26"
+  },
+  "act": true,
+  "vendor": [
+    {
+      "_id": {
+        "$oid": "6760008a1c02df17f8c2be10"
+      },
+      "vName": "RENU VENDORS",
+      "pRate": 55
+    }
+  ],
+  "stock": [
+    {
+      "o_id": {
+        "$oid": "675ffb801c02df17f8c2bdc1"
+      },
+      "sp_id": {
+        "$oid": "675ffb801c02df17f8c2bdc2"
+      },
+      "spCode": "POS-A",
+      "spName": "POS-A",
+      "stock": {
+        "$numberDecimal": "5"
+      },
+      "sRate": 65,
+      "expDate": {
+        "$date": "2025-01-30T18:29:59.999Z"
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "678b9a757e810fecc41d995a"
+  },
+  "pName": "Honey Cake",
+  "categ": "Menu",
+  "code": "26",
+  "subCateg": "BAKERY",
+  "group": "CHATS",
+  "desc": "",
+  "imgUrl": "",
+  "unit": "KGS",
+  "tax": {
+    "taxCateg": "5%",
+    "rate": 5,
+    "sgst": 2.5,
+    "cgst": 2.5,
+    "igst": 5
+  },
+  "kotSection": null,
+  "hsnCode": "",
+  "minStock": 0,
+  "hasExp": true,
+  "isVeg": null,
+  "isFrequentSales": null,
+  "isDailyPick": null,
+  "hasStock": true,
+  "expDays": 5,
+  "usedFor": {
+    "purchase": false,
+    "pos": true,
+    "production": true,
+    "kot": true,
+    "packing": true
+  },
+  "sales": [
+    {
+      "salesMode": "Token",
+      "enable": true
+    },
+    {
+      "salesMode": "POS",
+      "enable": true
+    },
+    {
+      "salesMode": "Zomato",
+      "enable": true
+    },
+    {
+      "salesMode": "Take Away",
+      "enable": true
+    },
+    {
+      "salesMode": "Swiggy",
+      "enable": true
+    },
+    {
+      "salesMode": "Dining",
+      "enable": true
+    }
+  ],
+  "prodTypes": [
+    {
+      "prodType": "Bakery",
+      "enable": true
+    },
+    {
+      "prodType": "Icing",
+      "enable": true
+    },
+    {
+      "prodType": "Snacks",
+      "enable": true
+    }
+  ],
+  "pRate": 25,
+  "sRate": 0,
+  "mrp": 0,
+  "cost": 25,
+  "purchAc": {
+    "$oid": "675ff9f51c02df17f8c2bd45"
+  },
+  "purchAcName": "Purchase",
+  "salesAc": {
+    "$oid": "675ff9f51c02df17f8c2bd44"
+  },
+  "salesAcName": "Sales",
+  "salesComm": 5,
+  "totStock": {
+    "$numberDecimal": "0"
+  },
+  "cAt": {
+    "$date": "2025-01-18T12:11:33.927Z"
+  },
+  "cBy": "Esakkiraj",
+  "c_Id": {
+    "$oid": "675ff9f51c02df17f8c2bd26"
+  },
+  "act": true
+},
+{
+  "_id": {
+    "$oid": "678dd4ca94bff8b708343187"
+  },
+  "code": "1",
+  "pName": "wheat crust 2",
+  "categ": "Raw Materials",
+  "subCateg": "Bake & Cookie",
+  "group": "B1",
+  "desc": "For baking and topping",
+  "unit": "TRAY",
+  "taxCateg": null,
+  "hsnCode": "Ab-01",
+  "hasStock": false,
+  "minStock": 0,
+  "hasExp": true,
+  "expDays": 5,
+  "pRate": 30,
+  "sRate": 45,
+  "usedFor": {
+    "purchase": true,
+    "pos": false,
+    "production": true,
+    "kot": false,
+    "packing": false
+  },
+  "tax": {
+    "taxCateg": "5%",
+    "rate": 5,
+    "sgst": 2.5,
+    "cgst": 2.5,
+    "igst": 5
+  },
+  "prodTypes": [
+    {
+      "prodType": "Icing",
+      "enable": true
+    },
+    {
+      "prodType": "Bakery",
+      "enable": true
+    },
+    {
+      "prodType": "Snacks",
+      "enable": true
+    }
+  ],
+  "sales": null,
+  "purchAc": {
+    "$oid": "675ff9f51c02df17f8c2bd45"
+  },
+  "purchAcName": "Purchase",
+  "salesAc": "",
+  "salesAcName": "",
+  "cost": 30,
+  "act": true,
+  "cAt": {
+    "$date": "2025-01-20T04:44:58.873Z"
+  },
+  "totStock": {
+    "$numberDecimal": "0"
+  },
+  "cBy": "Esakkiraj",
+  "c_Id": {
+    "$oid": "675ff9f51c02df17f8c2bd26"
+  }
+},
+{
+  "_id": {
+    "$oid": "678dd4ca94bff8b708343188"
+  },
+  "code": "2",
+  "pName": "Butter salt 4",
+  "categ": "Raw Materials",
+  "subCateg": "Bake & Cookie",
+  "group": "B2",
+  "desc": "For baking and topping",
+  "unit": "TRAY",
+  "taxCateg": null,
+  "hsnCode": "Ac-02",
+  "hasStock": false,
+  "minStock": null,
+  "hasExp": true,
+  "expDays": 5,
+  "pRate": 50,
+  "sRate": 85,
+  "usedFor": {
+    "purchase": true,
+    "pos": false,
+    "production": true,
+    "kot": false,
+    "packing": false
+  },
+  "tax": {
+    "taxCateg": "12%",
+    "rate": 12,
+    "sgst": 6,
+    "cgst": 6,
+    "igst": 12
+  },
+  "prodTypes": [
+    {
+      "prodType": "Snacks",
+      "enable": true
+    },
+    {
+      "prodType": "Bakery",
+      "enable": true
+    },
+    {
+      "prodType": "Icing",
+      "enable": true
+    }
+  ],
+  "sales": [
+    {
+      "salesMode": "Take Away",
+      "enable": false
+    },
+    {
+      "salesMode": "Swiggy",
+      "enable": false
+    },
+    {
+      "salesMode": "POS",
+      "enable": false
+    },
+    {
+      "salesMode": "Zomato",
+      "enable": false
+    },
+    {
+      "salesMode": "Dining",
+      "enable": false
+    },
+    {
+      "salesMode": "Token",
+      "enable": false
+    }
+  ],
+  "purchAc": {
+    "$oid": "675ff9f51c02df17f8c2bd45"
+  },
+  "purchAcName": "Purchase",
+  "salesAc": "",
+  "salesAcName": "",
+  "cost": 50,
+  "act": true,
+  "cAt": {
+    "$date": "2025-01-20T04:44:58.879Z"
+  },
+  "totStock": {
+    "$numberDecimal": "0"
+  },
+  "cBy": "Esakkiraj",
+  "c_Id": {
+    "$oid": "675ff9f51c02df17f8c2bd26"
+  },
+  "imgUrl": "",
+  "isDailyPick": false,
+  "isFrequentSales": false,
+  "isVeg": false,
+  "kotSection": null,
+  "mrp": 0,
+  "salesComm": null,
+  "uAt": {
+    "$date": "2025-01-20T04:45:49.238Z"
+  },
+  "uBy": "Esakkiraj",
+  "u_Id": {
+    "$oid": "675ff9f51c02df17f8c2bd26"
+  }
+},
+{
+  "_id": {
+    "$oid": "678dd4ca94bff8b708343189"
+  },
+  "code": "3",
+  "pName": "Strawberry custard Powder 6",
+  "categ": "Raw Materials",
+  "subCateg": "Bake & Cookie",
+  "group": "B3",
+  "desc": "For baking and topping",
+  "unit": "TRAY",
+  "taxCateg": null,
+  "hsnCode": "Ab-03",
+  "hasStock": false,
+  "minStock": 0,
+  "hasExp": true,
+  "expDays": 5,
+  "pRate": 50,
+  "sRate": 150,
+  "usedFor": {
+    "purchase": true,
+    "pos": false,
+    "production": true,
+    "kot": false,
+    "packing": false
+  },
+  "tax": {
+    "taxCateg": "18%",
+    "rate": 18,
+    "sgst": 9,
+    "cgst": 9,
+    "igst": 18
+  },
+  "prodTypes": [
+    {
+      "prodType": "Icing",
+      "enable": true
+    },
+    {
+      "prodType": "Bakery",
+      "enable": true
+    },
+    {
+      "prodType": "Snacks",
+      "enable": true
+    }
+  ],
+  "sales": null,
+  "purchAc": {
+    "$oid": "675ff9f51c02df17f8c2bd45"
+  },
+  "purchAcName": "Purchase",
+  "salesAc": "",
+  "salesAcName": "",
+  "cost": 50,
+  "act": true,
+  "cAt": {
+    "$date": "2025-01-20T04:44:58.885Z"
+  },
+  "totStock": {
+    "$numberDecimal": "0"
+  },
+  "cBy": "Esakkiraj",
+  "c_Id": {
+    "$oid": "675ff9f51c02df17f8c2bd26"
+  }
+}]
