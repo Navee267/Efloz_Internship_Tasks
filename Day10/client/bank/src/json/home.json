@@ -1,0 +1,21 @@
+[
+    {
+      "title": "Instant Account Overview",
+      "description": "Quickly glance at your balance, account number, and recent activity — all in one place.",
+      "redirect": "/acc",
+      "cta": "Account details →"
+    },
+    {
+      "title": "Fast & Safe Transactions",
+      "description": "Transfer money, pay bills, and manage your funds with banking-grade security and zero friction.",
+      "redirect": "/acc",
+      "cta": "Transaction now →"
+    },
+    {
+      "title": "Your Smart Banking Assistant",
+      "description": "Track spending, get personalized insights, and optimize your finances like a pro.",
+      "redirect": "/acc",
+      "cta": "Explore insights →"
+    }
+  ]
+  
